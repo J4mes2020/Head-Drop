@@ -40,6 +40,7 @@ public class HeadDropEvent implements Listener {
             meta.setOwningPlayer(player);
             item.setItemMeta(meta);
             world.dropItemNaturally(location, item);
+            player.sendMessage("hi");
         }
     }
 }
