@@ -1,0 +1,6 @@
+name: HeadDrop
+version: ${project.version}
+main: me.odionwolf.headdrop.HeadDrop
+api-version: 1.16
+authors: [ OdionWolf ]
+description: Simple player head drop
